@@ -19,16 +19,16 @@
                 // url:  appendProtocol('//vector.mapzen.com/osm/all/{z}/{x}/{y}.json')
                 url:  appendProtocol('//vector.mapzen.com/osm/haunted/{z}/{x}/{y}.json')
             },
-            layers: 'layers.yaml',
-            styles: 'styles.yaml'
+            layers: '/layers.yaml',
+            styles: '/styles.yaml'
         },
         'mapzen': {
             source: {
                 type: 'GeoJSONTileSource',
                 url:  appendProtocol('//vector.mapzen.com/osm/all/{z}/{x}/{y}.json')
             },
-            layers: 'layers.yaml',
-            styles: 'styles.yaml'
+            layers: '/layers.yaml',
+            styles: '/styles.yaml'
         },
 
     };
